@@ -1,28 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-          <br></br>
-          Abdul Rahman
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+function App(){
+  
 }
+// function App({name,age}){
+// return <div>hello world from {name} age={age-1}</div>
+// }
+
+// function App(props) {
+//   return <div>Hello World {props.name} Age ={props.age} </div>
+  
+// }
 
 export default App;

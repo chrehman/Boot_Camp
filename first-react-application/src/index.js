@@ -5,9 +5,20 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  
+  
+  ,
+  //React.createElement('div',null,React.createElement('i',null,"abdulRahman")),
+
+  //<App name="Abdul Rahman" age={25}/>,
+  
+  //<App name="Abdul Rahman" age="21"/>,
+
+    // <div>Hello World
+    //   <br></br>
+    //   <i>harooon/huzefa/Habib</i>
+    // </div>,
+  
   document.getElementById('root')
 );
 
